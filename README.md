@@ -58,23 +58,6 @@ Este proyecto es un compilador básico escrito en C usando **Flex** (Lex) y **Bi
    gcc lex.yy.c parser.tab.c -o Result      # compila todo
    ./Result                # ejecuta el archivo
 
-## 📦 Salida esperada
-   S: Token: INICIO
-   Token: LET
-   Var: x, Token: IDENTIFICADOR
-   Factor: 3
-   Term: 3
-   Token: LET
-   Var: y, Token: IDENTIFICADOR
-   Factor: 3
-   Term: 3
-   Factor: 7
-   Expr: 3
-   Token: SUMA
-   Term: 7
-   S: Token: FIN
-   
-   TABLA DE SIMBOLOS
    Var: y = 10
    Var: x = 3
 
