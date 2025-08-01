@@ -18,7 +18,11 @@ Este proyecto es un compilador básico escrito en C usando **Flex** (Lex) y **Bi
 1. **Descargar el instalador de Cygwin**  
    Ve a [https://www.cygwin.com/](https://www.cygwin.com/) y descarga el archivo `setup-x86_64.exe`.
 
-2. **Ejecuta el instalador**  
+2. **Guía en video (opcional)**  
+   Puedes seguir este video paso a paso para instalar Flex, Bison y GCC en Cygwin:  
+   📺 [Cómo instalar Cygwin + Flex + Bison + GCC en Windows](https://www.youtube.com/watch?v=nO4SIa3pe0I)
+
+3. **Ejecuta el instalador**  
    Sigue los pasos para instalarlo. Cuando llegues a *"Select Packages"*, busca e instala los siguientes paquetes:
 
    - `gcc-core` → compilador de C
@@ -28,7 +32,7 @@ Este proyecto es un compilador básico escrito en C usando **Flex** (Lex) y **Bi
 
    Puedes buscarlos en la sección **Devel** durante la instalación.
 
-3. **Abrir Cygwin Terminal**  
+4. **Abrir Cygwin Terminal**  
    Luego de instalar, abre el terminal y escribe:
 
    ```bash
